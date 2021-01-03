@@ -1,0 +1,12 @@
+.pook{
+   padding: 0;
+   background-color: #f4f5fb;
+   position: fixed;
+   width: 98%;
+   height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;  
+    position:absolute;
+}

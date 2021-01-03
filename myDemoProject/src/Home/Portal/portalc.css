@@ -1,0 +1,52 @@
+.portinp{
+    width: 144px;
+    margin-top: 3px;
+    border-radius: 0px;
+    border: 1px solid rgb(175, 168, 168);
+    margin-left: 15%;
+   
+}
+.addcitys{
+    text-align: center;
+    padding-top: 10px;
+   
+}
+/* .portinp:focus{
+    outline: none;
+} */
+.selectCyti{
+    font-weight: bold;
+    height: 35px;
+    width: 50px;
+    margin-left: 70%;
+    margin: 20px;
+    border: 1px solid orange;
+    background-color: orange;
+}
+.selectCyti:hover{
+    background: none;
+   
+
+}
+
+.over{
+    z-index: 999;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.style-modal{
+    width: 30%;
+    height: 26%;
+    margin: auto;
+    margin-top: 20%;
+    background-color: white;
+    border: 1px solid orange;
+}
+
+
+

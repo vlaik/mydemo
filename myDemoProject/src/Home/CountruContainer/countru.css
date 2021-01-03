@@ -1,0 +1,72 @@
+.countru{
+    grid-template-columns: 0.5fr 1fr;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+    align-items: center;
+    background: no-repeat;
+    background-size: 100% 100%;
+}
+.addbtn{
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 32%;
+    border: 1px solid orange;
+    background-color: orange;
+    text-align: top; 
+    cursor: pointer;
+}
+
+.addbtn:focus{
+    outline: none;
+}
+.addbtn:hover{
+    transition: 0.5s;
+    background: none;
+}
+.backs{
+    margin-top: -10px;
+    width: 100%;
+    height: 60%;
+}
+
+
+.pesh{
+    color: #b1b5be;
+    font-weight: bold;
+    font-size: 20px;
+}
+.kryg{
+    border: 1px solid violet;
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Portal */
+
+.portinp{
+    width: 400px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+.portinp:focus{
+    outline: none;
+}
+
+
+.over{
+    z-index: 999;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+}
+
